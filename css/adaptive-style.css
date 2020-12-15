@@ -1,0 +1,482 @@
+@media screen and (max-width: 1360px) {
+
+/*Icons	*/
+
+	.go-up{
+		transition: ease 0.6s;
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		position: fixed;
+		margin-left: -20%;
+		left: 5%;
+		top: 2%;
+		background-color: rgba(0,0,0,0);
+		color: rgba(0,0,0,0);
+		z-index: 10;
+		cursor: pointer;
+	}
+
+	.burger{
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		position: fixed;
+		right: 5%;
+		top: 2%;
+		background-color: rgba(0,0,0,0);
+		z-index: 10;
+		cursor: pointer;
+		font-size: 20px;
+		color: gold;
+		overflow: hidden;
+	}
+
+	.phone{
+		transition: ease 0.6s;
+		margin-right: -20%;
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 1%;
+		border: solid 3px gold;
+		border-radius: 30%;
+		position: fixed;
+		right: 5%;
+		bottom: 2%;
+		background-color: rgba(0,0,0,0);
+		color: gold;
+		z-index: 101;
+		cursor: pointer;
+	}
+
+
+	.togis{
+		transition: ease 0.6s;
+		margin-left: -20%;
+		/*visibility: hidden;*/
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 20%;
+		position: fixed;
+		left: 5%;
+		bottom: 2%;
+/*		background-color: rgba(0,0,0,0);
+		color: gold;*/
+		border: solid 3px gold;
+		background-image: url(../photo/togis.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 10;
+		cursor: pointer;
+	}
+
+	.menu{
+		transition: ease 0.6s;
+		width: auto;
+		left: auto;
+		right: 0;
+		margin-right: -20%;
+		border-left: 2px solid gold;
+	}
+
+	.main{
+		display: none;
+	}
+
+	.menu ul{
+		height: 100vh;
+		width: 100%;
+		padding: 0;
+	}
+
+	.menu li{
+		margin-bottom: 10%;
+		display: block;
+	}
+
+	.link{
+		width: 100%;
+	}
+
+
+
+/*Wrapper*/
+
+	.anchor{
+		height: 100px;
+	}
+
+
+
+
+/*Online*/
+
+	.online{
+		float: none;
+		width: 500px;
+		display: inline-block;
+		padding: 1%;
+		margin-bottom: 3%;
+	}
+
+
+
+/*Choosebar*/
+
+	.middle{
+		width: 600px;
+		margin-left: -300px;
+	}
+
+
+
+/*PRO*/
+
+	.maininfo{
+		height: auto;
+		max-height: 500px;
+	}
+
+
+/*Footer*/
+
+	.leftside, .rightside{
+		visibility: hidden;
+		display: none;
+	}
+
+}
+
+
+/*Form*/
+
+	.formList{
+		width: 380px;
+		height: 650px;
+		margin-top: -350px;
+	}
+
+
+/*Timer*/
+
+	.days,.hours,.minutes,.seconds{
+		display:inline-block;
+		padding:5px;
+		width: 50px;
+		border-radius:5px;
+		font-size: 18px;
+		text-align: center;
+		background: #A9A9A9;
+		color: #1A1A1A;
+	}
+
+
+@media screen and (max-width: 1160px){
+	.anchor{
+		height: 10px;
+	}
+}
+
+@media screen and (max-width: 1060px){
+
+	.welcome-box{
+		width: 550px;
+	}
+	.online-img{
+		display: none;
+	}
+
+	.about-mini{
+		width: 96%;
+	}
+
+	#forme-base, #forme-mini, #lifting{
+		height: 30px;
+	}
+
+	#dnev-vecher, #teenage{
+		height: 10px;
+
+	}
+
+	#forme-base-timer, #forme-mini-timer{
+		float: left;	
+		width: 50%;
+	}
+
+/*Timer*/
+	.days,.hours,.minutes,.seconds{
+		display:inline-block;
+		padding:5px;
+		width: 45px;
+		border-radius:5px;
+		font-size: 18px;
+		text-align: center;
+		background: #A9A9A9;
+		color: #1A1A1A;
+	}	
+}
+
+
+/*Phone*/
+
+
+@media screen and (max-width: 840px) {
+
+/*Header	*/
+
+	div.welcome-box{
+		max-width: 300px;
+		left: 50%;
+		margin-left: -150px;
+		margin-top: -100px;
+	}
+	.heading-main, .head1, .heading2{
+		font-size: 32px;
+	}
+	.welcome-button{
+		width: 300px;
+		height: 60px;
+	}
+
+	#back1{
+		background-image: url(../Photo0/Backs/back1-small.jpg);
+	}
+	#back2{
+		background-image: url(../Photo0/Backs/back2-small.jpg);
+	}
+	#back3{
+		background-image: url(../Photo0/Backs/back3-small.jpg);
+	}
+
+	.menu{
+		margin-right: -70%;
+	}
+
+	.phone{
+		margin-right: -70%;
+	}	
+
+	.go-up{
+		margin-left: -70%;
+	}
+
+	.togis{
+		margin-left: -70%;
+	}
+
+	.formList{
+		width: 94%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		margin-top: 0;
+		margin-left: 0;
+		padding: 3%;/*
+		padding-left: 3%;
+		padding-right: 3%;*/
+		border-radius: 0;
+	}
+
+	.cancel{
+		width: 40px;
+		height: 40px;
+		right: 0;
+		top: 1%;
+	}
+
+	.submit{
+		width: 100%;
+		top: 20px;
+	}
+
+
+/*Wrapper	*/
+
+	.anchor{
+		height: 10px;
+	}
+
+
+	.wrap{
+		height: 100%;
+		margin-bottom: 90px;
+	}
+	#choosebar-pro, #choosebar-mini, #choosebar-mc{
+		height: 100vh;
+		margin-bottom: 0;
+	}
+
+	#forme-base, #forme-mini, #lifting{
+		height: 10px; 
+	}
+
+/*Online	*/	
+
+	.online{
+		width: 96%;
+	}
+	.about-online{
+		text-align: center;
+	}
+
+/*Choosebar*/
+	.middle{
+		width: 96%;
+		padding: 2%;
+		padding-top: 100px;
+		position: static;
+		margin-left: 0;
+		/*transform: rotate(90deg);*/
+	}
+
+	ul.middle li{
+		margin-bottom: 20px;
+	}
+
+
+	.link-choosebar{
+		font-size: 20px;
+	}
+
+/*PRO	*/
+
+	.maininfo{
+		height: 100%;
+		max-height: unset;
+		/*overflow: hidden;*/
+	}
+
+	.inside{
+		width: 96%;
+		padding: 2%;
+	}
+
+	.about{
+		max-height: unset;
+	}
+
+
+/*Mini*/
+
+	.about-mini{
+		padding: 0;
+		width: 100%;
+		float: none;
+	}
+
+	#forme-base-img{
+		background-image: url(../Photo0/AmateurCour/amCoure1-360px.png);
+		background-position: center;
+	}
+
+	#forme-mini-img{
+		background-image: url(../Photo0/AmateurCour/@soft_lia-3508-360px.png);
+		background-position: center;
+	}
+
+	.text-mini{
+		padding: 2%;
+	}
+	
+	.sidebar{
+		padding: 1%;
+		text-align: center;
+	}
+
+	#forme-base-timer, #forme-mini-timer{
+		float: none;	
+		width: 100%;
+	}
+
+/*MC	*/
+
+	.mc-img, .about-mc, .sidebar-mc{
+		width: 96%;
+		padding: 2%;
+
+	}
+
+	.sidebar-mc{
+		float: none;
+		text-align: center;
+	}
+
+/*Teachers	*/
+
+	.teacher{
+		margin-bottom: 50px;
+	}	
+
+	.time-in{
+		margin-left: 0;
+		text-align: center;
+	}
+
+}	
+
+
+@media screen and (max-width: 430px) {
+	body{
+		overflow-x: hidden;
+	}
+	.teacher{
+		margin-bottom: 0;
+		height: 100vh;
+	}
+	.teacher-img{
+		width: 240px;
+		height: 240px;
+		margin-left: -120px;
+
+	}
+	.inside{
+		min-width: unset;
+	}
+	.timer{
+		font-size: 20px;
+	}
+	.mc-img, .about-mc, .sidebar-mc{
+		min-width: unset;
+
+	}
+
+	.days,.hours,.minutes,.seconds{
+		display:inline-block;
+		padding:5px;
+		width: 55px;
+		border-radius:5px;
+		font-size: 16px;
+		text-align: center;
+		background: #A9A9A9;
+		color: #1A1A1A;
+	}
+
+	.formHead{
+		font-size: 26px;
+		padding-bottom: 10px;
+		}
+	.inputList, .formInput{
+		font-size: 20xpx;
+	}
+	.submit{
+		top: 0px;
+	}
+
+	.formBot, .muteBot{
+		min-width: 250px;
+	}
+	.online{
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
+
+
+
